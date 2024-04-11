@@ -95,6 +95,10 @@ section.row{
     padding: .2em;
 }
 
+#heart:hover{
+    color: red;
+}
+
 /* MAIN --> product info */
 .brand,
 .product-title{

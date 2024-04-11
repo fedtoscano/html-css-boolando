@@ -8,6 +8,14 @@ header{
     color: white;
     background-color: rgb(255, 106, 0);
 }
+.flex-centered{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .header-container{
     padding: 1em;
     display: flex;
@@ -43,11 +51,14 @@ section.row{
     padding-bottom: 3em;
 }
 .row{
-    width: calc(100% - 3rem);
+    width: 100%;
+    /* width: calc(100% - 3rem); */
 }
 .products{
+    width: 33%;
+    position: relative;
     border: 1px solid black;
-    width: calc((100% / 3) - 3rem);
+    /* width: calc((100% / 3) - 3rem); */
 }
 
 .products>img{
@@ -55,7 +66,32 @@ section.row{
     object-fit: contain;
     width: 100%;
 }
+/*  MAIN --> TAGS */
+.tags{
+    position: absolute;
+    top: 80%;
+    color: white;
+}
 
+.discount{
+    padding: .2em;
+    background-color: red;
+}
+
+.eco{
+    padding: .2em;
+    background-color: green;
+}
+
+#heart{
+
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    font-size: 4em;
+    padding: .2em;
+}
 /* FOOTER */
 footer{
     font-weight: bold;

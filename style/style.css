@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing:border-box;
 }
+
+header{
+    color: white;
+    background-color: rgb(255, 106, 0);
+}
+.header-container{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav{
+    list-style-type: none;
+    display: flex;
+    gap: .5em;
+}
+
+#logo{
+    width: 200px;
+}

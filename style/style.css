@@ -43,6 +43,12 @@ span>i{
     margin-right: .2em;
 }
 
+header nav,
+#logo,
+.header-icons{
+    align-content: center;
+}
+
 /* MAIN */
 
 main{
